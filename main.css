@@ -1,0 +1,36 @@
+html { overflow-y: scroll; }
+/* body { position: absolute; } */
+.signup-row {
+  margin-top: 500px;
+}
+
+.form-card {
+  width: 24rem;
+  margin-left: 25%;
+  
+}
+
+.splash-text {
+  margin-top: 20%;
+  margin-left: 25%;
+}
+
+.wrap {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.logo {
+  width: 250px;
+}
+
+@media screen and (max-width: 760px) {
+  .form-card {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .splash-text {
+    margin-left: 0;
+  }
+}
